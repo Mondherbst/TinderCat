@@ -73,9 +73,9 @@ export const Navigation = ({onPress}) => {
                         
         <NavigationIcon onPress={goBack} name="arrow-undo" />
        { !Object.keys(cat).length ? <div className="image-couple">
-        
-        <h3>NO FUERON ENCONTRADOS LOS GATOS</h3>
-        <p>MODIFICAR INTERESES</p>
+       <h1>COME ON! U SHOULD BE AN INCLUSIVE KITTY </h1>
+        <h3>Try add more interest to found your lover or friend cat new!</h3>
+        <p></p>
         </div> :  <Couple
             image={cat.image}
             username={cat.nick}
